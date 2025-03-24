@@ -1,6 +1,9 @@
 import requests
 import os
 
+from parte_1.utils.zip_folders import zip_assets_folder
+
+
 def upload_file(url, name_archive):
     print(f"Tentando baixar o arquivo: {url}")
     response = requests.get(url)
@@ -32,5 +35,4 @@ name_archives = [
 for i in range(len(links)):
     upload_file(links[i], name_archives[i])
 
-# for link, name in zip(links, name_archives):
-    # upload_file(link, name)
+zip_assets_folder('assets', 'anexos_files.zip')
