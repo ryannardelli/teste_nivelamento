@@ -2,7 +2,7 @@ import requests
 import os
 
 def upload_file(url, name_archive):
-    print(f"Baixando o arquivo {name_archive} ({url})")
+    print(f"Baixando o arquivo {name_archive}")
 
     response = requests.get(url)
 
