@@ -48,8 +48,8 @@ GROUP BY o.registro_ans, o.razao_social
 ORDER BY total_despesas DESC;
 ```
 
-### Query 3: Seleção de Operadoras com Mais Despesas no Ano de 2024
-Esta query retorna o **registro ANS**, **razão social** e o **total de despesas** das operadoras que tiveram mais despesas no ano de 2023.
+### Query 3: Seleção de Operadoras com Mais Despesas no Último Trimestre de 2023
+Esta query retorna o **registro ANS**, **razão social** e o **total de despesas** das operadoras que tiveram mais despesas último trimestre de 2023.
 
 ```sql
 SELECT o.registro_ans, 
