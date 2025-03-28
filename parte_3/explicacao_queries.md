@@ -48,7 +48,7 @@ GROUP BY o.registro_ans, o.razao_social
 ORDER BY total_despesas DESC;
 ```
 
-### Query 3
+### Query 3: Seleção das 10 Operadoras com maiores despesas no ultimo ano (2024)
 Esta query retorna o **registro ANS**, **razão social** e o **total de despesas** das 10 operadoras que tiveram mais despesas no último ano (2024).
 ```sql
 SELECT o.registro_ans, 
