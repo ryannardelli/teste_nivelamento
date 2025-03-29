@@ -6,9 +6,9 @@ Bem-vindo ao repositório de nivelamento para a posição de Estágio em Desenvo
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- **Python** (Backend)
-- **Vue.js** (Frontend)
-- **TypeScript** (Frontend)
+- **Python**
+- **Vue.js**
+- **TypeScript**
 
 ## 📦 Bibliotecas e Frameworks Utilizados
 
