@@ -17,7 +17,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **BeautifulSoup** - Web scraping para extração de informações
 - **pdfplumber** - Ferramenta para extração informações em pdf
 
-## 🛠️ Como Rodar a parte 1, 2
+## 🛠️ Como Rodar a parte 1 e 2
 
 ### 1️⃣ Clonar o Repositório
 ```sh
@@ -26,7 +26,7 @@ cd teste_nivelamento
 ```
 
 ### 2️⃣ Rodar o projeto
-Para rodar o projeto, basta apenas dar um play no main. Isso serve para a parte 1, 2.
+Para rodar o projeto, basta apenas dar um play no main. Isso serve para a parte 1 e 2.
 
 ## 🛠️ Como Rodar a parte 4
 Na parte 4, eu dividir os arquivos em dois. Pois foi utilizado Vue.js e Python (Flask). Então, é necessário seguir os passos a seguir:
