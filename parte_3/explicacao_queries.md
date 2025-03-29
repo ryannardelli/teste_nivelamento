@@ -64,3 +64,23 @@ GROUP BY o.registro_ans, o.razao_social
 ORDER BY total_despesas DESC
 LIMIT 10;
 ```
+
+# Resultados
+
+## Resultado da Query 1: Operadoras com Mais Despesas no Último Trimestre de 2024
+
+Abaixo está um gráfico de barras representando as operadoras com maior valor de despesas no último trimestre de 2024.
+
+![Gráfico de barras - Operadoras com Mais Despesas 2024](img_result/img_result_1.png)
+
+## Resultado da Query 2: Operadoras com Mais Despesas no Último Trimestre de 2023
+
+O gráfico abaixo exibe as operadoras com maior valor de despesas no último trimestre de 2023.
+
+![Gráfico de barras - Operadoras com Mais Despesas 2023](img_result/img_result_2.png)
+
+## Resultado da Query 3: Top 10 Operadoras com Mais Despesas no Ano de 2024
+
+O gráfico abaixo apresenta as 10 operadoras com os maiores valores de despesas ao longo do ano de 2024.
+
+![Gráfico de barras - Top 10 Operadoras 2024](img_result/img_result_3.png)
