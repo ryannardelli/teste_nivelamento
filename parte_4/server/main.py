@@ -1,16 +1,20 @@
 from flask import Flask, jsonify
-
+import pandas as pd
 app = Flask(__name__)
 
-data = {
-    'id': '1',
-    'nome': '<NAME>',
-    'email': '<EMAIL>',
-}
+df = pd.read_csv("C:/Users/Ryan/Documents/teste_tecnico/parte_4/server/Relatorio_cadop.csv", delimiter=';')
+
+# Função para transformar o dataframe em lista de dicionários
+def get_data_from_csv():
+    # Filtrando as colunas mais importantes
+    data = df[['Razao_Social', 'Nome_Fantasia', 'CNPJ', 'Modalidade']].to_dict(orient='records')
+    return data
 
 @app.route('/api', methods=['GET'])
 def get_data():
-    data = {"message": "Esta é uma resposta da API!"}
+    data = get_data_from_csv()
     return jsonify(data)
 
-app.run(port=5000, host='localhost', debug=True)
+# Rodando o servidor Flask
+if __name__ == '__main__':
+    app.run(port=5000, host='localhost', debug=True)
