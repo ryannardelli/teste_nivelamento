@@ -1,4 +1,4 @@
-# Teste Técnico - IntuitiveCare
+# Teste de Nivelamento - IntuitiveCare
 
 Bem-vindo ao repositório do teste técnico para a posição de Estágio em Desenvolvimento de Software na IntuitiveCare. Este documento fornece todas as informações necessárias sobre a solução implementada.
 
