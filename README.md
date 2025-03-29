@@ -20,8 +20,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### 1️⃣ Clonar o Repositório
 ```sh
-git clone https://github.com/seu-usuario/teste-tecnico.git
-cd teste-tecnico
+git clone https://github.com/seu-usuario/teste-nivelamento.git
+cd teste-nivelamento
 ```
 
 ### 2️⃣ Rodar o projeto
@@ -31,8 +31,8 @@ Para rodar o projeto, basta apenas dar um play no main. Isso serve para a parte 
 Na parte 4, eu dividir os arquivos em dois. Pois foi utilizado Vue.js e Python (Flask). Então, é necessário seguir os passos a seguir:
 ### 1️⃣ Clonar o Repositório
 ```sh
-git clone https://github.com/seu-usuario/teste-tecnico.git
-cd teste-tecnico
+git clone https://github.com/seu-usuario/teste-nivelamento.git
+cd teste-nivelamento
 ```
 ### 2️⃣ Configurar o Backend
 ```sh
