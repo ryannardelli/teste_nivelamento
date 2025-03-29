@@ -69,7 +69,7 @@ Para acessar a rota que retorna os dados do CSV, basta adicionar **/data**, ou s
 Caso tenha dúvidas ou feedbacks, entre em contato:
 
 - **GitHub**: [ryannardelli](https://github.com/ryannardelli)
-- **LinkedIn**: [Seu Nome](https://www.linkedin.com/in/ryannardelli/)
+- **LinkedIn**: [Ryan Nardelli](https://www.linkedin.com/in/ryannardelli/)
 - **E-mail**: ryannardelli12@gmail.com
 
 🚀 Desenvolvido por **Ryan Nardelli** para o teste da IntuitiveCare.
