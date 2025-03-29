@@ -1,23 +1,19 @@
 from flask import Flask, jsonify
-import pandas as pd
+
+from parte_4.server.utils.get_data_from_csv import get_data_from_csv
+
 app = Flask(__name__)
-
-df = pd.read_csv("C:/Users/Ryan/Documents/teste_tecnico/parte_4/server/Relatorio_cadop.csv", delimiter=';')
-
-# Função para transformar o dataframe em lista de dicionários
-def get_data_from_csv():
-    # Filtrando as colunas mais importantes
-    data = df[['Razao_Social', 'Nome_Fantasia', 'CNPJ', 'Modalidade']].to_dict(orient='records')
-
-    # Substitui o valor vazio da coluna (NaN) por um nome mais legível
-    df['Nome_Fantasia'].fillna('Nome Não Disponível', inplace=True)
-    return data
 
 @app.route('/data', methods=['GET'])
 def get_data():
-    data = get_data_from_csv()
+    # Caminho para o arquivo CSV
+    path = "C:/Users/Ryan/Documents/teste_tecnico/parte_4/server/Relatorio_cadop.csv"
+
+    data = get_data_from_csv(path)
+
+    # Retornando os dados como resposta JSON
     return jsonify(data)
 
-# Rodando o servidor Flask
+
 if __name__ == '__main__':
     app.run(port=5000, host='localhost', debug=True)
