@@ -84,3 +84,5 @@ O gráfico abaixo exibe as operadoras com maior valor de despesas no último tri
 O gráfico abaixo apresenta as 10 operadoras com os maiores valores de despesas ao longo do ano de 2024.
 
 ![Gráfico - Top 10 Operadoras 2024](img_result/img_result_3.png)
+
+⚠️ **Observação**: Na primeira e terceira imagem dos gráficos não estão sendo mostrados o total de despesas porque os espaços excederam o limite e criaram um espaçamento lateral, mas os dados foram mostrados também.
