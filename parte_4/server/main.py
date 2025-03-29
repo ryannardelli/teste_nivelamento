@@ -1,8 +1,11 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 
 from parte_4.server.utils.get_data_from_csv import get_data_from_csv
 
 app = Flask(__name__)
+
+CORS(app)
 
 @app.route('/data', methods=['GET'])
 def get_data():

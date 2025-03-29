@@ -1,6 +1,7 @@
 <script setup lang="ts">
+  import Table from '../components/Table.vue'
 </script>
 
 <template>
-  <h1>Dados do CSV:</h1>
+  <Table />
 </template>
