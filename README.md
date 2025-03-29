@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-A aplicação estará disponível em [http://localhost:5000]((http://localhost:5000)) (ou a porta configurada).
+A aplicação estará disponível em [http://localhost:5000](http://localhost:5000) (ou a porta configurada).
 
 Para acessar a rota que retorna os dados do CSV, basta adicionar **/data**, ou seja, irá ficar assim: **http://localhost:5000/data**
 
