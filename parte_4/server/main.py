@@ -1,7 +1,16 @@
-# Aqui estou importando o Flask que será usado para criar a api
-from fastapi import FastAPI
-app = FastAPI()
+from flask import Flask, jsonify
 
-@app.get("/")
-def index():
-    return {"message": "Hello World"}
+app = Flask(__name__)
+
+data = {
+    'id': '1',
+    'nome': '<NAME>',
+    'email': '<EMAIL>',
+}
+
+@app.route('/api', methods=['GET'])
+def get_data():
+    data = {"message": "Esta é uma resposta da API!"}
+    return jsonify(data)
+
+app.run(port=5000, host='localhost', debug=True)
