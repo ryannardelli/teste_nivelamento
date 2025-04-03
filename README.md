@@ -15,7 +15,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Pandas** - Manipulação e análise de dados
 - **Flask** - Criação de API para comunicação backend
 - **BeautifulSoup** - Web scraping para extração de informações
-- **pdfplumber** - Ferramenta para extração informações em pdf
+- **pdfplumber** - Ferramenta para extração de informações em pdf
 
 ## 🛠️ Como Rodar a parte 1 e 2
 
